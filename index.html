@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marissa</title>
+<meta name="viewport" id="view" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- Google Fonts Link -->
+<!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'> -->
+
+<link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+<!-- Link to CSS stylesheet --><link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+<link rel="icon" href="img/favicon.png" type="image/png">
+
+<style>
+html { 
+  background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+  </style>
+<script type="text/javascript">
+		<!--
+		function getWindowHeight() {
+			var windowHeight = 0;
+			if (typeof(window.innerHeight) == 'number') {
+				windowHeight = window.innerHeight;
+			}
+			else {
+				if (document.documentElement && document.documentElement.clientHeight) {
+					windowHeight = document.documentElement.clientHeight;
+				}
+				else {
+					if (document.body && document.body.clientHeight) {
+						windowHeight = document.body.clientHeight;
+					}
+				}
+			}
+			return windowHeight;
+		}
+		function setContent() {
+			if (document.getElementById) {
+				var windowHeight = getWindowHeight();
+				if (windowHeight > 0) {
+					var contentElement = document.getElementById('content');
+					var contentHeight = contentElement.offsetHeight;
+					if (windowHeight - contentHeight > 0) {
+						contentElement.style.position = 'relative';
+						contentElement.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
+					}
+					else {
+						contentElement.style.position = 'static';
+					}
+				}
+			}
+		}
+		window.onload = function() {
+			setContent();
+		}
+		window.onresize = function() {
+			setContent();
+		}
+		//-->
+		</script>
+
+
+	</head>
+
+
+	<!-- Body Begins -->
+<body>
+
+
+<div id="content">
+
+	<div class="photo"><img src="img/marissa.png" /></div>
+	<div class="name">Marissa Wu</div>
+	<div class="bio">I don't like crispy bacon, but understand people who do. </div>
+
+	<div class="linkedin"> <a href="http://www.linkedin.com">Connect with me on LinkedIn</a> </div>
+
+	<div class="google"> <a href="http://www.google.com">Connect with me on Google +</a> </div>
+
+	<div class="facebook"> <a href="http://www.facebook.com/wu.marissa">Connect with me on Facebook</a> </div>
+
+	<div class="twitter"> <a href="http://www.twitter.com">Connect with me on Twitter</a> </div>
+
+</div>
+
+
+</body>
+<!-- Body Ends -->
+</html>

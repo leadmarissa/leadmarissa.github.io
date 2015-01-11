@@ -1,0 +1,160 @@
+/*CSS Reset Begins*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reset Ends*/
+
+/*Custom CSS Begins*/
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.name {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 400;
+	color:#000000;
+	margin-top: 20px;
+
+}
+
+.name:hover {
+
+	background-color: #000;
+	color:#000;
+	cursor:pointer;
+
+}
+
+.bio {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 100;
+	color:#000000;
+	margin-top: 20px;
+	padding-bottom: 5%;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10%;
+    margin-top: 20px;
+    color:#fff;
+}
+
+.wrap:after {
+ content: "";
+ display: table;
+ clear: both;
+
+}
+
+.photo {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.photo img {
+	width: 200px;
+	border-radius: 10px;
+	border:2px solid #fff;
+}
+
+#content {
+background-color:rgba(255,255,255,0.5);
+width:50%;
+padding:10%;
+margin:0 auto;
+text-align:center;
+border-radius: 10px;
+}
+
+#content:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.linkedin, .google, .facebook, .twitter{
+
+	width:30%;
+	margin:2% 2% 2% 5%;
+	padding:10px 5% 10px 5%;
+	font-size:30px;
+	color:#000;
+	float:left;
+	line-height: 20px;
+	border-radius: 10px;
+}
+
+.linkedin a, .google a, .facebook a, .twitter a{
+
+	color:#fff;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+.linkedin {
+
+	background:#007AB6;
+}
+
+.google {
+
+	background:#D54334;
+}
+
+.facebook {
+
+	background:#3D589F;
+}
+
+.twitter {
+
+	background:#1FC0FF;
+}
+
+/*Custom CSS Ends
